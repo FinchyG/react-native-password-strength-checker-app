@@ -7,7 +7,6 @@ import H2Header from './components/H2Header';
 import PasswordInput from './components/PasswordInput';
 
 const PasswordStrengthCheckerApp = () => {
-    const [password, setPassword] = useState('');
     const [suggestions, setSuggestions] = useState([]);
     const [strength, setStrength] = useState('');
 
@@ -59,7 +58,6 @@ const PasswordStrengthCheckerApp = () => {
             <PasswordInput
               placeholder="type password here..."
               onChangeText={(text) => {
-                setPassword(text);
                 checkPasswordStrength(text)
               }}
             />

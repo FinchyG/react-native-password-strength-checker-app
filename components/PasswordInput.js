@@ -6,6 +6,7 @@ function PasswordInput(props) {
   const styles = StyleSheet.create({
     textInputStyles: {
       borderWidth: 1,
+      borderRadius: 5,
       width: 300,
       padding: 10,
       marginBottom: 10,
