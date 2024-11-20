@@ -4,16 +4,16 @@ import {StyleSheet, Text} from 'react-native';
 function H2Header(props) {
 
   const styles = StyleSheet.create({
-    h2Styles: {
-      textAlign: 'center',
+    HeadingText: {
+      fontSize: 25,
+      alignItems: 'center',
       fontWeight: 'bold',
-      fontSize: 30
     }
   });
   
   return (
-    <Text style={styles.h2Styles}>
-      {props.textContent}    
+    <Text style={styles.HeadingText}>
+      {props.textContent}
     </Text>
   );
 }
