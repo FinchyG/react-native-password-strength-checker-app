@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {View, TextInput, Text, StyleSheet} 
+import {View, SafeAreaView, Text, StyleSheet} 
     from 'react-native';
 
 // component imports
@@ -49,7 +49,7 @@ const PasswordStrengthCheckerApp = () => {
     }
 
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
             <View style={styles.Heading}>
                 <H2Header
                   textContent="Password Strength Checker"
@@ -82,7 +82,7 @@ const PasswordStrengthCheckerApp = () => {
                                       (strength === 'Strong' ? 'green' : 'limegreen')))}}>
                 </View>
             </View>
-        </View>
+        </SafeAreaView>
     )
 }
 const styles = StyleSheet.create({
