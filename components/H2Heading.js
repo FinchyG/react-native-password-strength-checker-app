@@ -1,7 +1,7 @@
 import React from "react";
 import {StyleSheet, Text} from 'react-native';
 
-function H2Header(props) {
+function H2Heading(props) {
 
   const styles = StyleSheet.create({
     HeadingText: {
@@ -18,4 +18,4 @@ function H2Header(props) {
   );
 }
 
-export default H2Header;
+export default H2Heading;
