@@ -3,7 +3,7 @@ import {View, SafeAreaView, Text, StyleSheet}
     from 'react-native';
 
 // component imports
-import H2Header from './components/H2Header';
+import H2Heading from './components/H2Heading';
 import PasswordInput from './components/PasswordInput';
 
 const PasswordStrengthCheckerApp = () => {
@@ -51,7 +51,7 @@ const PasswordStrengthCheckerApp = () => {
     return (
         <SafeAreaView style={styles.container}>
             <View style={styles.Heading}>
-                <H2Header
+                <H2Heading
                   textContent="Password Strength Checker"
                 />
             </View>
